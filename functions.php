@@ -66,7 +66,6 @@ function yumi_register_pattern_categories() {
 	$block_pattern_categories = array(
 		'headers'       => array( 'label' => __( 'Headers' ) ),
 		'footers'       => array( 'label' => __( 'Footers' ) ),
-		'sidebars'      => array( 'label' => __( 'Sidebars' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'yumi_block_pattern_categories', $block_pattern_categories );
