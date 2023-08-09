@@ -78,13 +78,6 @@ function yumi_register_pattern_categories() {
 add_action( 'init', 'yumi_register_pattern_categories' );
 
 /**
- * Include Woocommerce
- */
-if (class_exists('Woocommerce')) {
-	require get_template_directory() . '/inc/woocommerce/functions.php';
-}
-
-/**
  * TGMPA plugin activation.
  */
 require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
