@@ -27,27 +27,6 @@
 				"post"
 			],
 			"title": "Header and Footer Variant"
-		},
-		{
-			"name": "post-no-featured-image",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post no Featured Image"
-		},
-		{
-			"name": "post-no-featured-image-no-commet",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post no Featured Image and No Comments"
-		},
-		{
-			"name": "post-no-comments",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post no Comments"
 		}
 	],
 	"settings": {
