@@ -4,16 +4,9 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package yumi
+ * @package Yumi
  * @since 1.0
  */
- 
-/**
- * The theme version.
- *
- * @since 1.0
- */
-define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**
  * Add theme support for block styles and editor style.
@@ -34,27 +27,32 @@ function yumi_support() {
 add_action( 'after_setup_theme', 'yumi_support' );
 
 /**
- * Enqueue the CSS files.
- *
- * @since 1.0
- *
- * @return void
+ * Enqueue style.css file.
  */
-function yumi_styles() {
+if ( ! function_exists( 'yumi_styles' ) ) :
 
-	wp_enqueue_style(
-		'yumi-style',
-		get_template_directory_uri() . '/assets/build/css/style.css',
-		[],
-		THEME_VERSION
-	);
-}
+	/**
+	 * Enqueue styles.
+	 *
+	 * @return void
+	 */
+	function yumi_styles() {
+
+		// Register theme stylesheet.
+		wp_register_style(
+			'yumi-style',
+			get_stylesheet_directory_uri() . '/assets/build/css/style.css',
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'yumi-style' );
+	}
+
+endif;
+
 add_action( 'wp_enqueue_scripts', 'yumi_styles' );
-
-/**
- * Register theme block styles.
- */
-require get_template_directory() . '/inc/block-styles.php';
 
 /**
  * Registers pattern categories.
@@ -64,8 +62,9 @@ require get_template_directory() . '/inc/block-styles.php';
 function yumi_register_pattern_categories() {
 
 	$block_pattern_categories = array(
-		'headers'       => array( 'label' => __( 'Headers' ) ),
-		'footers'       => array( 'label' => __( 'Footers' ) ),
+		'headers'       => array( 'label' => __( 'Headers', 'yumi' ) ),
+		'footers'       => array( 'label' => __( 'Footers', 'yumi' ) ),
+		'page'          => array( 'label' => __( 'Page', 'yumi' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'yumi_block_pattern_categories', $block_pattern_categories );
@@ -76,44 +75,3 @@ function yumi_register_pattern_categories() {
 }
 
 add_action( 'init', 'yumi_register_pattern_categories' );
-
-/**
- * TGMPA plugin activation.
- */
-require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
-
-add_action( 'tgmpa_register', 'yumi_register_required_plugins' );
-
-/**
- * Register the required plugins for this theme.
- */
-function yumi_register_required_plugins() {
-	/*
-	 * Array of plugin arrays. Required keys are name and slug.
-	 */
-	$plugins = array(
-
-		array(
-			'name'      => 'Aino Blocks - Gutenberg Page Builder Blocks',
-			'slug'      => 'aino-blocks',
-			'required'  => false,
-		),
-	);
-
-	/*
-	 * Array of configuration settings. Amend each line as needed.
-	 */
-	$config = array(
-		'id'           => 'yumi',                 // Unique ID for hashing notices for multiple instances of TGMPA.
-		'default_path' => '',                      // Default absolute path to bundled plugins.
-		'menu'         => 'tgmpa-install-plugins', // Menu slug.
-		'has_notices'  => true,                    // Show admin notices or not.
-		'dismissable'  => true,                    // If false, a user cannot dismiss the nag message.
-		'dismiss_msg'  => '',                      // If 'dismissable' is false, this message will be output at top of nag.
-		'is_automatic' => false,                   // Automatically activate plugins after installation or not.
-		'message'      => '',                      // Message to output right before the plugins table.
-
-	);
-
-	tgmpa( $plugins, $config );
-}
