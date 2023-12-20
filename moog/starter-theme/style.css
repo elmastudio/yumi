@@ -1,0 +1,20 @@
+/*
+Theme Name: AinoBlocks
+Theme URI: https://ainoblocks.io
+Author: ElmaStudio
+Author URI: https://www.elmastudio.de/en/
+Description: A lightweight starter block theme for the Gutenberg editor with site editing support.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 7.0
+Version: 1.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: ainoblocks
+Tags: blog, block-styles, e-commerce, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing
+
+AinoBlocks Theme, (C) 2022 Elmastudio Ltd.
+This theme is distributed under the terms of the GNU GPL.
+*/
+
+/* Note: The CSS files are loaded from assets/build/css/ folder. */

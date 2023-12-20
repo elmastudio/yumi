@@ -1,0 +1,113 @@
+.wc-block-components-button,
+.wc-block-mini-cart__shopping-button a,
+.single_add_to_cart_button,
+.woocommerce-Button[type="submit"],
+.wc-block-components-button:not(.is-link).contained,
+.checkout-button {
+	@include transition-default;
+	font-weight: var(--wp--custom--font-weight--body) !important;
+	border-radius: var(--global--border-radius-xxs);
+	@include btn;
+	@include btn-l;
+}
+
+.single_add_to_cart_button,
+.wc-block-components-button.contained,
+.wc-block-components-button:not(.is-link).contained,
+.checkout-button {
+	@include btn-default;
+}
+
+.wc-block-components-button:not(.is-link).outlined,
+.wc-block-components-button.outlined,
+.wc-block-mini-cart__shopping-button a {
+	@include transition-default;
+	box-shadow: none !important;
+	color: var(--wp--preset--color--dark) !important;
+	border: 1px solid var(--wp--preset--color--neutral-quarternary);
+
+	&:hover {
+		opacity: 1;
+		color: var(--wp--preset--color--dark);
+		background: var(--wp--preset--color--neutral-tertiary);
+		border: 1px solid var(--wp--preset--color--neutral-quarternary);
+	}
+
+	&:active,
+	&:focus {
+		color: var(--wp--preset--color--dark);
+		background: var(--wp--preset--color--neutral-tertiary);
+	}
+}
+
+// Button hover with animated left to right line
+.wc-block-components-filter-reset-button,
+.wc-block-active-filters .wc-block-active-filters__clear-all,
+.woocommerce-notices-wrapper a {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 2px !important;
+	word-break: keep-all;
+	transition: all .3s ease;
+	text-decoration: none !important;
+	line-height: var(--global--line-height-reset);
+
+	&::after {
+		content: '';
+		width: 0px;
+		height: 1px;
+		display: block;
+		background: currentColor;
+		transition: all .3s ease;
+	}
+
+	&:hover:after {
+		width: 100%;
+	}
+
+	&::after,
+	&:active::after {
+		transform: scaleX(1);
+	}
+}
+
+.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button {
+	height: 3.5rem;
+	margin-left: 12px;
+}
+
+.wc-block-components-totals-shipping .wc-block-components-totals-shipping__change-address-button,
+.wc-block-components-checkout-return-to-cart-button {
+	@include btn-text;
+	opacity: 1 !important;
+}
+
+// WooCommerce buttons
+.woocommerce-orders-table .woocommerce-button,
+.edit {
+	@include btn;
+	@include btn-xxxs;
+}
+
+.wc-block-components-product-button {
+	background-color: none;
+	padding: 0;
+}
+
+.wc-block-grid__product-add-to-cart {
+
+	&.wp-block-button {
+
+		.wp-block-button__link {
+			justify-content: flex-start;
+			text-align: left;
+			padding: 0;
+			background: none;
+			color: var(--wp--preset--color--font-secondary);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+}

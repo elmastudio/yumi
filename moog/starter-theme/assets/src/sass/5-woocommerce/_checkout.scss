@@ -1,0 +1,195 @@
+.wp-block-woocommerce-checkout {
+	position: relative;
+
+	.wc-block-components-sidebar-layout,
+	.block-editor-block-list__layout {
+		justify-content: space-between;
+	}
+
+	.wc-block-checkout {
+
+		&__main {
+			padding-right: 0;
+			width: 53.25%;
+		}
+
+		&__sidebar {
+			box-sizing: border-box;
+			margin: 0;
+			padding-left: 0;
+			width: 36.59%;
+		}
+	}
+
+	.wc-block-checkout {
+
+		&__payment-method {
+
+			.wc-block-components-radio-control {
+	
+				&__option {
+					padding-left: 26px;
+					padding-bottom: 0.5rem;
+					padding-top: 0.5rem;
+	
+					.wc-block-components-radio-control__input {
+						left: 0;
+					}
+				}
+			}
+	
+			.wc-block-components-radio-control-accordion-content {
+				padding: 0 0 1.5rem;
+			}	
+		}
+
+
+		&__shipping-option {
+
+			.wc-block-components-radio-control {
+
+				&__option {
+					padding-left: 26px;
+					padding-bottom: 0.5rem;
+					padding-top: 0.5rem;
+
+					&:after {
+						display: none;
+					}
+				}
+			}
+
+		}
+	}
+	
+}
+
+.wp-block-woocommerce-checkout {
+
+	.wp-block-post-content & p {
+		padding-top: 0;
+	}
+}
+
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input,
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input {
+	background: var(--wp--preset--color--input-background);
+	border: 1px solid var(--wp--preset--color--input-border);
+	border-radius: var(--global--border-radius-xxs);
+	height: 3.5rem;
+}
+
+.components-combobox-control__suggestions-container,
+.wc-block-components-combobox-control {
+	font-size: 1rem !important;
+
+	&:focus {
+		border-color: transparent !important;
+		box-shadow: none !important;
+	}
+}
+
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list,
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list {
+	border-color: var(--wp--preset--color--input-border);
+}
+
+.wc-block-components-combobox {
+
+	.components-combobox-control__input:focus,
+	.components-combobox-control__input[aria-expanded=true] {
+		box-shadow: none !important;
+		color: var(--wp--preset--color--font-secondary) !important;
+	}
+}
+
+.components-form-token-field__suggestion:hover {
+	background-color: var(--wp--preset--color--neurtal-secondary) !important;
+	color: var(--wp--preset--color--font-secondary) !important;
+}
+
+.components-combobox-control__suggestions-container:focus-within {
+	border-color: transparent;
+	box-shadow: none;
+}
+
+.wc-block-components-checkout-step {
+
+	&__description {
+		margin-bottom: 1.5rem;
+	}
+
+	&__heading {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.wc-block-checkout__payment-method {
+
+	.wc-block-components-radio-control-accordion-option,
+	.wc-block-components-radio-control__option {
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.is-large {
+
+	.wc-block-components-sidebar {
+
+		.wc-block-components-totals-item,
+		.wc-block-components-panel {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+// Checkout step numbers
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__title:before {
+	width: 30px;
+}
+
+.wc-block-components-totals-wrapper {
+
+	&:after {
+		border-color: var(--wp--preset--color--border-secondary);
+		opacity: 1;
+	}
+
+	&:first-of-type {
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container {
+
+	&:after {
+		border-color: var(--wp--preset--color--border-secondary);
+		opacity: 1;
+	}
+}
+
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__content>:last-child {
+	padding-bottom: 0;
+}
+
+.wc-block-components-order-summary-item__description {
+	padding-left: 1rem;
+}
+
+.wc-block-components-order-summary-item {
+	padding-top: 1.5rem;
+}
+
+.wc-block-components-order-summary-item__image,
+.wc-block-components-order-summary-item__image>img {
+	width: 64px;
+	max-width: 64px;
+}

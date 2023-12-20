@@ -1,0 +1,175 @@
+/* Primary Links */
+.single .wp-block-post-content p a,
+.single .wp-block-post-content li a,
+.authorbox__content p a,
+.comment-content p a,
+figcaption a,
+.comment-reply-title #cancel-comment-reply-link,
+.wp-block-post-excerpt__more-link,
+.comment .comment-body p a,
+.wp-block-ainoblocks-card p a,
+.wp-block-ainoblocks-grid-item p a,
+.wp-block-ainoblocks-notification-block p a,
+.wp-block-post-author p a {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.footer-content {
+	.wp-block-ainoblocks-grid-item p a {
+		text-decoration: none;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+
+.wp-block-ainoblocks-accordion-faq-block {
+
+	&.is-style-toggle {
+
+		.accordion {
+			margin-left: var(--wp--preset--spacing--8);
+			margin-right: var(--wp--preset--spacing--8);
+
+			h3 {
+				text-transform: uppercase;
+				font-size: var(--wp--preset--font-size--text-xxs) !important;
+			}
+		}
+	}
+}
+
+.site-header {
+
+	.btn-icon {
+
+		.wp-block-ainoblocks-button__link {
+			display: flex;
+			width: 2.5rem;
+			height: 2.5rem;
+			text-indent: -9000px;
+			text-transform: capitalize;
+			padding: 0;
+			background-repeat: no-repeat;
+			background-position: center center;
+			transition: none !important;
+
+			&:hover {
+				background-color: transparent !important;
+			}
+		}
+	}
+
+	.icon-search {
+
+		.wp-block-ainoblocks-button__link {
+			background-image: url(/assets/images/search.svg) !important;
+		}
+	}
+
+	.wp-block-ainoblocks-multiple-buttons {
+
+		.wp-block-ainoblocks-multiple-buttons__inner {
+			.btn-icon:not(:first-child) {
+				margin-left: var(--space-01);
+			}
+		}
+	}
+
+	&.pro-light-s,
+	&.pro-light-l {
+
+		.header-content {
+			.wp-block-navigation-submenu .wp-block-navigation__submenu-icon {
+				width: 0.75rem;
+				height: auto;
+			}
+		}
+	}
+
+	.wp-block-navigation__responsive-container-open.always-shown {
+		
+		&:hover {
+			color: var(--wp--preset--color--primary) !important;
+			fill: var(--wp--preset--color--primary) !important;
+			background-color: transparent !important;
+		}
+	}
+
+	.wp-block-navigation:not(.has-background):not(.has-text-l-font-size) .wp-block-navigation__submenu-container {
+		padding: var(--wp--preset--spacing--3) 0;
+
+		li .wp-block-navigation-item__content {
+			align-items: stretch;
+			font-size: var(--wp--preset--font-size--text-s)!important;
+			font-weight: 400;
+			line-height: var(--global--line-height-reset);
+			text-transform: none;
+		}
+
+	}
+}
+
+// Tagcloud and Category buttons
+.wp-block-tag-cloud,
+.wp-block-categories {
+	padding-top: 0 !important;
+
+	&.is-style-btn {
+		display: flex;
+		flex-wrap: wrap;
+
+		ul li a,
+		a {
+			display: block;
+			line-height: 1;
+			margin-right: var(--wp--preset--spacing--2);
+			margin-bottom: var(--wp--preset--spacing--2);
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.wp-block-tag-cloud.is-style-btn a,
+.wp-block-categories.is-style-btn a {
+	@include btn;
+	text-decoration: none;
+	@include btn-s;
+	font-size: 1rem !important;
+}
+
+.wp-block-tag-cloud.is-style-btn,
+.wp-block-categories.is-style-btn {
+
+	a {
+		border: 1px solid;
+		border-color: var(--wp--preset--color--neutral-quarternary);
+		color: var(--wp--preset--color--variant-neutral-quinary);
+		fill: var(--wp--preset--color--variant-neutral-quinary);
+
+		&:hover {
+			background-color: var(--wp--preset--color--neutral-tertiary) !important;
+		}
+	}
+
+	&.variant {
+
+		.wp-block-ainoblocks-button__link {
+			color: var(--wp--preset--color--neutral-quinary);
+			fill: var(--wp--preset--color--neutral-quinary);
+			border-color: var(--wp--preset--color--variant-neutral-quarternary);
+
+			&:hover {
+				background-color: var(--wp--preset--color--variant-neutral-tertiary) !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: all .1s ease;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+/* Primary Links */
+.single .wp-block-post-content p a,
+.single .wp-block-post-content li a,
+.authorbox__content p a,
+.comment-content p a,
+figcaption a,
+.wp-block-post-excerpt__more-link,
+.comment .comment-body p a,
+.wp-block-ainoblocks-card p a,
+.wp-block-ainoblocks-notification-block p a,
+.wp-block-post-author p a,
+.woocommerce-store-notice a,
+.woocommerce-info a {
+	text-decoration: underline;
+
+	&:hover {
+		color: var(--wp--preset--color--quarternary);
+		text-decoration: none;
+	}
+}
+
+/* Opacity on hover */
+.comment-list b.fn a,
+.site-footer .wp-block-navigation a,
+.site-footer p a,
+.filters-container a,
+.wp-block-post-terms a {
+
+	&:hover {
+		opacity: 50%;
+	}
+}

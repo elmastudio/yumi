@@ -1,0 +1,38 @@
+.wp-block-navigation-item {
+
+	&.account-icon {
+		position: relative;
+		height: 2.5rem;
+		width: 2.5rem;
+
+		&:after {
+			content:"";
+			display: block;
+			position: absolute;
+			top: 8px;
+			left: 8px;
+			height: 1.5rem;
+			width: 1.5rem;
+			background-image: url(/assets/images/account.svg) !important;
+			background-repeat: no-repeat;
+			z-index: 10;
+		}
+
+		a {
+			position: absolute;
+			background: transparent;
+			height: 2.5rem;
+			width: 2.5rem;
+			cursor: pointer;
+			top: 0;
+			left: 0;
+			z-index: 100;
+			transition: all 0.2s ease-in-out;
+			padding: 0;
+		}
+
+		.wp-block-navigation-item__label {
+			display: none;
+		}
+	}
+}

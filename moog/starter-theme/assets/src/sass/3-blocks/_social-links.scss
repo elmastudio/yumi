@@ -1,0 +1,58 @@
+.site-header,
+.site-footer {
+
+	.wp-block-social-links {
+		list-style: none;
+	
+		.wp-social-link {
+	
+			.wp-block-social-link-anchor {
+				padding: 0;
+			}
+	
+			&.wp-social-link.wp-social-link {
+				margin: 0;
+			}
+		}
+
+		&.is-style-logos-only {
+	
+			.wp-social-link {
+				padding: 0;
+	
+				.wp-block-social-link-anchor {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+
+.wp-block-social-links {
+
+	.wp-social-link {
+		width: 24px;
+		height: 24px;
+
+		a {
+			width: 24px;
+			height: 24px;
+		}
+	}
+
+	&.size-xs {
+
+		.wp-social-link {
+			width: 20px;
+			height: 20px;
+	
+			.wp-block-social-link-anchor {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+}
