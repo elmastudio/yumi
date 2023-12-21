@@ -20,8 +20,8 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4"}},"layout":{"type":"flex","flexWrap":"wrap"},"metadata":{"name":"Author"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":2701,"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost:8888/wp-content/uploads/2023/10/avatar-person-2.jpg" alt="" class="wp-image-2701" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
+<div class="wp-block-group"><!-- wp:image {"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -42,8 +42,8 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4"}},"layout":{"type":"flex","flexWrap":"wrap"},"metadata":{"name":"Author"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":2701,"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost:8888/wp-content/uploads/2023/10/avatar-person-2.jpg" alt="" class="wp-image-2701" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
+<div class="wp-block-group"><!-- wp:image {"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->

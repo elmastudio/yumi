@@ -2,7 +2,7 @@
 /**
  * Title: Intro
  * Slug: yumi/intro
- * Categories: featured, text, services
+ * Categories: text, services
  * Viewport width: 1440
  */
 ?>
@@ -26,7 +26,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4"}},"layout":{"type":"flex","flexWrap":"wrap"},"metadata":{"name":"Author"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"64px","height":"64px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://ainodev.local/wp-content/themes/moog/assets/images/avatar-person-2.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:64px;height:64px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:64px;height:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -50,8 +50,8 @@
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
-<div class="wp-block-column"><!-- wp:image {"id":31706,"width":"32px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://ainodev.local/wp-content/uploads/2023/12/icon-1.png" alt="" class="wp-image-31706" style="width:32px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-01.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -64,8 +64,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":31705,"width":"32px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://ainodev.local/wp-content/uploads/2023/12/icon-2.png" alt="" class="wp-image-31705" style="width:32px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-02.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->

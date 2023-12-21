@@ -26,52 +26,52 @@
 
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2989,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-01.png" alt="Company Logo" class="wp-image-2989" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-01.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2991,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-02.png" alt="Company Logo" class="wp-image-2991" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-02.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2992,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-03.png" alt="Company Logo" class="wp-image-2992" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-03.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2993,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-04.png" alt="Company Logo" class="wp-image-2993" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-04.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2997,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-05.png" alt="Company Logo" class="wp-image-2997" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-05.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2998,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-06.png" alt="Company Logo" class="wp-image-2998" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-06.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":2999,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-07.png" alt="Company Logo" class="wp-image-2999" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-07.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":3000,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2023/12/yumi-wordpress-theme-company-logo-08.png" alt="Company Logo" class="wp-image-3000" style="width:280px"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":"280px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-company-logo-08.png" alt="Company Logo" style="width:280px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
