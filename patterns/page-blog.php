@@ -10,3 +10,5 @@
  */
 ?>
 
+<!-- wp:pattern {"slug":"yumi/posts-3-columns"} /-->
+<!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

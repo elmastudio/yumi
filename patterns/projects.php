@@ -2,7 +2,7 @@
 /**
  * Title: Projects
  * Slug: yumi/projects
- * Categories: featured, projects
+ * Categories: featured, portfolio
  * Viewport width: 1440
  */
 ?>
@@ -29,7 +29,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|7"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-arrow-right.png" alt="Arrow" style="width:16px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-arrow.png" alt="Arrow" style="width:16px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|text-primary"}}},"spacing":{"padding":{"left":"var:preset|spacing|2"}}},"textColor":"text-primary","className":"text-decoration-none","fontSize":"text-s"} -->
@@ -49,7 +49,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","padding":{"top":"var:preset|spacing|7"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"16px"}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-arrow-right.png" alt="Arrow" style="object-fit:contain;width:16px;height:16px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-arrow.png" alt="Arrow" style="object-fit:contain;width:16px;height:16px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|text-primary"}}}},"textColor":"text-primary","className":"text-decoration-none","fontSize":"text-s"} -->
@@ -63,4 +63,4 @@
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:group --> 

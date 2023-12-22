@@ -9,3 +9,6 @@
  * Viewport width: 1440
  */
 ?>
+
+<!-- wp:pattern {"slug":"yumi/client-feedback"} /-->
+<!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

@@ -10,5 +10,5 @@
  */
 ?>
 
-
-
+<!-- wp:pattern {"slug":"yumi/services"} /-->
+<!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

@@ -2,7 +2,7 @@
 /**
  * Title: Client Feedback
  * Slug: yumi/client-feedback
- * Categories: portfolio, testimonials
+ * Categories: testimonials
  * Viewport width: 1440
  */
 ?>
