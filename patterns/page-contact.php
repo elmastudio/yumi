@@ -1,10 +1,11 @@
 <?php
 /**
  * Title: Contact Page
- * Slug: yumi/contact
+ * Slug: yumi/page-contact
  * Categories: page
- * Keywords: page, starter
- * Post Types: page
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Post Types: page, wp_template
  * Viewport width: 1440
  */
 ?>

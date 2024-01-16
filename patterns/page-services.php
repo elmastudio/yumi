@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Home Page
- * Slug: yumi/page-home
+ * Title: Services Page
+ * Slug: yumi/page-services
  * Categories: page
  * Keywords: starter
  * Block Types: core/post-content
@@ -10,6 +10,5 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"yumi/hero"} /-->
+<!-- wp:pattern {"slug":"yumi/services"} /-->
 <!-- wp:pattern {"slug":"yumi/call-to-action"} /-->
-<!-- wp:pattern {"slug":"yumi/intro"} /-->

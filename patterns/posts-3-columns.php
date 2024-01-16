@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Related Posts
+ * Title: Posts 3 Columns
  * Slug: yumi/posts-3-columns
  * Categories: query
  */
@@ -20,7 +20,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|9"}},"textColor":"font-secondary","layout":{"type":"grid","columnCount":3},"fontSize":"text-xxs"} -->
-<!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"24px"}}} /-->
+<!-- wp:post-featured-image {"isLink":true}}} /-->
 
 <!-- wp:post-date {"style":{"spacing":{"padding":{"top":"var:preset|spacing|6","right":"var:preset|spacing|default","bottom":"var:preset|spacing|default","left":"var:preset|spacing|default"}},"typography":{"fontStyle":"normal"}},"fontSize":"text-xxs"} /-->
 

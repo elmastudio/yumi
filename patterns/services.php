@@ -2,7 +2,7 @@
 /**
  * Title: Services
  * Slug: yumi/services
- * Categories: banner, services, featured
+ * Categories: services, featured
  * Viewport width: 1440
  */
 ?>

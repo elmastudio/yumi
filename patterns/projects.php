@@ -2,7 +2,7 @@
 /**
  * Title: Projects
  * Slug: yumi/projects
- * Categories: featured, projects
+ * Categories: featured, portfolio
  * Viewport width: 1440
  */
 ?>
@@ -23,13 +23,13 @@
 
 <!-- wp:column {"width":"66.6666666666667%","style":{"spacing":{"blockGap":"var:preset|spacing|13"}}} -->
 <div class="wp-block-column" style="flex-basis:66.666666666667%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":2793,"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://ainodev.local/wp-content/uploads/2023/10/roppongi-hills-1.jpg" alt="" class="wp-image-2793" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="Project" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|7"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"id":31755,"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://ainodev.local/wp-content/uploads/2023/12/icon-arrow-right.png" alt="" class="wp-image-31755" style="width:16px"/></figure>
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"width":"16px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-arrow.png" alt="Arrow" style="width:16px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|text-primary"}}},"spacing":{"padding":{"left":"var:preset|spacing|2"}}},"textColor":"text-primary","className":"text-decoration-none","fontSize":"text-s"} -->
@@ -43,13 +43,13 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":2793,"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://ainodev.local/wp-content/uploads/2023/10/roppongi-hills-1.jpg" alt="" class="wp-image-2793" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="Project" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","padding":{"top":"var:preset|spacing|7"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"id":31755,"width":"16px","height":"16px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"16px"}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://ainodev.local/wp-content/uploads/2023/12/icon-arrow-right.png" alt="" class="wp-image-31755" style="object-fit:contain;width:16px;height:16px"/></figure>
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--7)"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"16px"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-arrow.png" alt="Arrow" style="object-fit:contain;width:16px;height:16px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|text-primary"}}}},"textColor":"text-primary","className":"text-decoration-none","fontSize":"text-s"} -->
@@ -63,4 +63,4 @@
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:group --> 

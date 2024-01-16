@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Hero
- * Slug: yumi/hero
- * Categories: banner, call-to-action, featured
+ * Title: Hero Slogan
+ * Slug: yumi/hero-slogan
+ * Categories: banner, call-to-action
  * Viewport width: 1440
  */
 ?>
@@ -18,9 +18,6 @@
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
-
-<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
