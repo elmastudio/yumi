@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Theme Header
+ * Title: Header
  * Slug: yumi/header
  * Categories: headers
  * Block Types: core/template-part/header

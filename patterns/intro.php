@@ -2,7 +2,7 @@
 /**
  * Title: Intro
  * Slug: yumi/intro
- * Categories: text, services
+ * Categories: text, about
  * Viewport width: 1440
  */
 ?>

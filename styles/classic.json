@@ -1,0 +1,171 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Classic",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Text Primary",
+					"slug": "text-primary"
+				},
+				{
+					"color": "#2b2b2b",
+					"name": "Text Secondary",
+					"slug": "text-secondary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 40)",
+					"name": "Text Tertiary",
+					"slug": "text-tertiary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Text Brand",
+					"slug": "text-brand"
+				},
+				{
+					"color": "#076aff",
+					"name": "Text Accent",
+					"slug": "text-accent"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Text on",
+					"slug": "text-on"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Surface Primary",
+					"slug": "surface-primary"
+				},
+				{
+					"color": "#f7f7f7",
+					"name": "Surface Secondary",
+					"slug": "surface-secondary"
+				},
+				{
+					"color": "#076AFF",
+					"name": "Surface Brand Primary",
+					"slug": "surface-brand-primary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 5)",
+					"name": "Surface Brand Secondary",
+					"slug": "surface-brand-secondary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Surface Accent",
+					"slug": "surface-accent"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Surface Input",
+					"slug": "surface-input"
+				},
+				{
+					"color": "#000000",
+					"name": "Border Primary",
+					"slug": "border-primary"
+				},
+				{
+					"color": "#dcdcdc",
+					"name": "Border Secondary",
+					"slug": "border-secondary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 10)",
+					"name": "Border Input",
+					"slug": "border-input"
+				},
+				{
+					"color": "#076aff",
+					"name": "Border Brand",
+					"slug": "border-brand"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Variant Text Primary",
+					"slug": "variant-text-primary"
+				},
+				{
+					"color": "#d0d0d0",
+					"name": "Variant Text Secondary",
+					"slug": "variant-text-secondary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 40)",
+					"name": "Variant Text Tertiary",
+					"slug": "variant-text-tertiary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Variant Text Brand",
+					"slug": "variant-text-brand"
+				},
+				{
+					"color": "#076aff",
+					"name": "Variant Text Accent",
+					"slug": "variant-text-accent"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Variant Text on",
+					"slug": "variant-text-on"
+				},
+				{
+					"color": "#000000",
+					"name": "Variant Surface Primary",
+					"slug": "variant-surface-primary"
+				},
+				{
+					"color": "#161616",
+					"name": "Variant Surface Secondary",
+					"slug": "variant-surface-secondary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Variant Surface Brand Primary",
+					"slug": "variant-surface-brand-primary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 10)",
+					"name": "Variant Surface Brand Secondary",
+					"slug": "variant-surface-brand-secondary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Variant Surface Accent",
+					"slug": "variant-surface-accent"
+				},
+				{
+					"color": "rgba(255, 255, 255, 5)",
+					"name": "Variant Surface Input",
+					"slug": "variant-surface-input"
+				},
+				{
+					"color": "#000000",
+					"name": "Variant Border Primary",
+					"slug": "variant-border-primary"
+				},
+				{
+					"color": "#323232",
+					"name": "Variant Border Secondary",
+					"slug": "variant-border-secondary"
+				},
+				{
+					"color": "#076aff",
+					"name": "Variant Border Brand",
+					"slug": "variant-border-brand"
+				},
+				{
+					"color": "rgba(255, 255, 255, 10)",
+					"name": "Variant Border Input",
+					"slug": "variant-border-input"
+				}
+			]
+		}
+	}
+}

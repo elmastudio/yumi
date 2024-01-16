@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Theme Footer
+ * Title: Footer
  * Slug: yumi/footer
  * Categories: footers
  * Block Types: core/template-part/footer
@@ -14,18 +14,18 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.6666666666667%","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|17"}}}} -->
-<div class="wp-block-column" style="padding-bottom:var(--wp--preset--spacing--17);flex-basis:66.666666666667%"><!-- wp:navigation {"ref":31655,"textColor":"text-primary","overlayMenu":"never","overlayBackgroundColor":"surface-primary","overlayTextColor":"text-secondary","className":"flex-grow-one","layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|11"}},"fontSize":"text-l"} /-->
+<div class="wp-block-column" style="padding-bottom:var(--wp--preset--spacing--17);flex-basis:66.666666666667%"><!-- wp:navigation {"textColor":"text-primary","overlayMenu":"never","overlayBackgroundColor":"surface-primary","overlayTextColor":"text-secondary","className":"flex-grow-one","layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|11"}},"fontSize":"text-l"} /-->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-primary"}}}},"textColor":"text-primary","fontSize":"text-l"} -->
 <p class="has-text-primary-color has-text-color has-link-color has-text-l-font-size">Our goal is to make technology accessible and inviting, and to help people explore the world around them in a more meaningful way.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"font-primary","iconColorValue":"#0B0B0B","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|7"}}},"className":"is-style-logos-only size-s","layout":{"type":"flex","justifyContent":"left"}} -->
-<ul class="wp-block-social-links has-icon-color is-style-logos-only size-s"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
-
-<!-- wp:social-link {"url":"https://twitter.com/ellenbauer","service":"twitter"} /-->
+<!-- wp:social-links {"iconColor":"text-primary","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|7"},"margin":{"top":"var:preset|spacing|7"}}},"className":"is-style-logos-only size-s","layout":{"type":"flex","justifyContent":"left"}} -->
+<ul class="wp-block-social-links has-icon-color is-style-logos-only size-s" style="margin-top:var(--wp--preset--spacing--7)"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
 <!-- wp:social-link {"url":"https://www.instagram.com/elmastudio/?hl=en","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"https://twitter.com/ellenbauer","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"https://www.youtube.com/@elmastudio","service":"youtube"} /--></ul>
 <!-- /wp:social-links --></div>

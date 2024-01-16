@@ -21,7 +21,7 @@
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4"}},"layout":{"type":"flex","flexWrap":"wrap"},"metadata":{"name":"Author"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="Profile Image" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -43,7 +43,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4"}},"layout":{"type":"flex","flexWrap":"wrap"},"metadata":{"name":"Author"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"96px","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="Profile Image" style="border-style:none;border-width:0px;border-radius:100px;width:96px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
