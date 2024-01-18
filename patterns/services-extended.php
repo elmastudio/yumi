@@ -28,7 +28,7 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|7"}}},"layout":{"type":"constrained"},"metadata":{"name":"Icon List"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--7)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -38,7 +38,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"var:preset|spacing|4","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--4);margin-bottom:0"><!-- wp:image {"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="h<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="h<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -48,7 +48,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"var:preset|spacing|4","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--4);margin-bottom:0"><!-- wp:image {"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -66,7 +66,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-08.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-08.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -80,7 +80,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"92px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-10.png" alt="Icon" style="width:92px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-10.png" alt="Icon" style="width:92px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -110,7 +110,7 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|7"}}},"layout":{"type":"constrained"},"metadata":{"name":"Icon List"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--7)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -120,7 +120,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"var:preset|spacing|4","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--4);margin-bottom:0"><!-- wp:image {"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="Icon" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -130,7 +130,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|4","margin":{"top":"var:preset|spacing|4","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--4);margin-bottom:0"><!-- wp:image {"id":3103,"width":"24px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-plus-circle.png" alt="" class="wp-image-3103" style="width:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-plus-circle.png" alt="" class="wp-image-3103" style="width:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -154,7 +154,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-02.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-02.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -168,7 +168,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-04.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-04.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
