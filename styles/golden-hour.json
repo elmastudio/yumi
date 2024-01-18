@@ -11,22 +11,22 @@
 					"slug": "text-primary"
 				},
 				{
-					"color": "rgba(68, 55, 21, 80)",
+					"color": "rgba(68, 55, 21, 0.8)",
 					"name": "Text Secondary",
 					"slug": "text-secondary"
 				},
 				{
-					"color": "rgba(68, 55, 21, 60)",
+					"color": "rgba(68, 55, 21, 0.6)",
 					"name": "Text Tertiary",
 					"slug": "text-tertiary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Text Brand",
 					"slug": "text-brand"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Text Accent",
 					"slug": "text-accent"
 				},
@@ -41,22 +41,22 @@
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#fef8f5",
+					"color": "#FFF5F0",
 					"name": "Surface Secondary",
 					"slug": "surface-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Surface Brand Primary",
 					"slug": "surface-brand-primary"
 				},
 				{
-					"color": "#fef8f5",
+					"color": "rgba(160, 74, 11, 0.15)",
 					"name": "Surface Brand Secondary",
 					"slug": "surface-brand-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Surface Accent",
 					"slug": "surface-accent"
 				},
@@ -66,22 +66,22 @@
 					"slug": "surface-input"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#443715",
 					"name": "Border Primary",
 					"slug": "border-primary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "rgba(68, 55, 21, 0.2)",
 					"name": "Border Secondary",
 					"slug": "border-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A",
 					"name": "Border Brand",
 					"slug": "border-brand"
 				},
 				{
-					"color": "rgba(68, 55, 21, 20)",
+					"color": "rgba(68, 55, 21, 0.2)",
 					"name": "Border Input",
 					"slug": "border-input"
 				},
@@ -91,22 +91,22 @@
 					"slug": "variant-text-primary"
 				},
 				{
-					"color": "rgba(68, 55, 21, 80)",
+					"color": "rgba(68, 55, 21, 0.8)",
 					"name": "Variant Text Secondary",
 					"slug": "variant-text-secondary"
 				},
 				{
-					"color": "rgba(68, 55, 21, 60)",
+					"color": "rgba(68, 55, 21, 0.6)",
 					"name": "Variant Text Tertiary",
 					"slug": "variant-text-tertiary"
 				},
 				{
-					"color": "#076aff",
+					"color": "#A04A0B",
 					"name": "Variant Text Brand",
 					"slug": "variant-text-brand"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Variant Text Accent",
 					"slug": "variant-text-accent"
 				},
@@ -116,52 +116,52 @@
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#fed770",
+					"color": "#FED770",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
 				{
-					"color": "#f7cf65",
+					"color": "#F7CF65",
 					"name": "Variant Surface Secondary",
 					"slug": "variant-surface-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Variant Surface Brand Primary",
 					"slug": "variant-surface-brand-primary"
 				},
 				{
-					"color": "rgba(255, 255, 255, 10)",
+					"color": "#A04A0B",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Variant Surface Accent",
 					"slug": "variant-surface-accent"
 				},
 				{
-					"color": "rgba(68, 55, 21, 10)",
+					"color": "rgba(68, 55, 21, 0.15)",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
 				{
-					"color": "#fed770",
+					"color": "#FED770",
 					"name": "Variant Border Primary",
 					"slug": "variant-border-primary"
 				},
 				{
-					"color": "#443715",
+					"color": "rgba(68, 55, 21, 0.2)",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
 				},
 				{
-					"color": "#a04a0b",
+					"color": "#A04A0B",
 					"name": "Variant Border Brand",
 					"slug": "variant-border-brand"
 				},
 				{
-					"color": "rgba(68, 55, 21, 20)",
+					"color": "rgba(68, 55, 21, 0.2)",
 					"name": "Variant Border Input",
 					"slug": "variant-border-input"
 				}
