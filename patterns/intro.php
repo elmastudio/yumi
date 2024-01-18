@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Intro
- * Slug: yumi/intro
+ * Title: Intro Variant
+ * Slug: yumi/intro-variant
  * Categories: text, about
  * Viewport width: 1440
  */
@@ -51,7 +51,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-01.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-01.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -65,7 +65,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-02.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-02.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->

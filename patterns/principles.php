@@ -23,7 +23,7 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|12"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-03.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-03.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -37,7 +37,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-04.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-04.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->
@@ -51,7 +51,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/yumi-wordpress-theme-icon-05.png" alt="Icon" style="width:64px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icon-05.png" alt="Icon" style="width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|4","bottom":"var:preset|spacing|4"}}}} -->

@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Hero Variant
- * Slug: yumi/hero-variant
+ * Title: Hero Slogan Variant
+ * Slug: yumi/hero-slogan-variant
  * Categories: banner, call-to-action
  * Viewport width: 1440
  */
@@ -14,13 +14,9 @@
 <div class="wp-block-column" style="flex-basis:66.666666666667%"><!-- wp:site-logo /-->
 
 <!-- wp:heading {"level":1,"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|13"}},"elements":{"link":{"color":{"text":"var:preset|color|variant-text-primary"}}}},"textColor":"variant-text-primary"} -->
-<h1 class="wp-block-heading has-variant-text-primary-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--13)"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-variant-text-accent-color">We are an interactive design studio</mark> <br>focused on crafting better experiences for brands and people.</h1>
+<h1 class="wp-block-heading has-variant-text-primary-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--13)"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-variant-text-brand-color">We are an interactive design studio</mark> <br>focused on crafting better experiences for brands and people.</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

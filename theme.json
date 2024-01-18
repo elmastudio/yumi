@@ -26,7 +26,7 @@
 					"slug": "text-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 40)",
+					"color": "rgba(0, 0, 0, 0.4)",
 					"name": "Text Tertiary",
 					"slug": "text-tertiary"
 				},
@@ -36,12 +36,12 @@
 					"slug": "text-brand"
 				},
 				{
-					"color": "#076aff",
+					"color": "#a075e6",
 					"name": "Text Accent",
 					"slug": "text-accent"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#fcf7a9",
 					"name": "Text on",
 					"slug": "text-on"
 				},
@@ -56,7 +56,7 @@
 					"slug": "surface-secondary"
 				},
 				{
-					"color": "#076AFF",
+					"color": "#98ff8f",
 					"name": "Surface Brand Primary",
 					"slug": "surface-brand-primary"
 				},
@@ -66,27 +66,27 @@
 					"slug": "surface-brand-secondary"
 				},
 				{
-					"color": "#076aff",
+					"color": "#f50223",
 					"name": "Surface Accent",
 					"slug": "surface-accent"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#ff8c9c",
 					"name": "Surface Input",
 					"slug": "surface-input"
 				},
 				{
-					"color": "#000000",
+					"color": "#160ccf",
 					"name": "Border Primary",
 					"slug": "border-primary"
 				},
 				{
-					"color": "#dcdcdc",
+					"color": "#645cf7",
 					"name": "Border Secondary",
 					"slug": "border-secondary"
 				},
 				{
-					"color": "#076aff",
+					"color": "#d94527",
 					"name": "Border Brand",
 					"slug": "border-brand"
 				},
@@ -126,7 +126,7 @@
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#211f38",
+					"color": "#fc7703",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
@@ -161,7 +161,7 @@
 					"slug": "variant-border-primary"
 				},
 				{
-					"color": "#3d1705",
+					"color": "#fff93d",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
 				},

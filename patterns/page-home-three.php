@@ -11,9 +11,6 @@
 ?>
 
 <!-- wp:pattern {"slug":"yumi/hero-slogan"} /-->
-<!-- wp:pattern {"slug":"yumi/intro"} /-->
-<!-- wp:pattern {"slug":"yumi/services"} /-->
-<!-- wp:pattern {"slug":"yumi/projects"} /-->
-<!-- wp:pattern {"slug":"yumi/client-feedback"} /-->
-<!-- wp:pattern {"slug":"yumi/companies"} /-->
-<!-- wp:pattern {"slug":"yumi/call-to-action"} /-->
+<!-- wp:pattern {"slug":"yumi/companies-variant"} /-->
+<!-- wp:pattern {"slug":"yumi/services-extended"} /-->
+<!-- wp:pattern {"slug":"yumi/call-to-action-variant"} /-->
