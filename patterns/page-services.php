@@ -10,5 +10,6 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"yumi/services"} /-->
+<!-- wp:pattern {"slug":"yumi/text-page-intro"} /-->
+<!-- wp:pattern {"slug":"yumi/services-extended"} /-->
 <!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

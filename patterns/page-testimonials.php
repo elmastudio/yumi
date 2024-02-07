@@ -10,5 +10,5 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"yumi/client-feedback"} /-->
+<!-- wp:pattern {"slug":"yumi/testimonials-alt"} /-->
 <!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

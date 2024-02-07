@@ -14,3 +14,4 @@
 <!-- wp:pattern {"slug":"yumi/project-one-column"} /-->
 <!-- wp:pattern {"slug":"yumi/project-one-column"} /-->
 <!-- wp:pattern {"slug":"yumi/projects-two-columns"} /-->
+<!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

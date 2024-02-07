@@ -12,4 +12,5 @@
 
 <!-- wp:pattern {"slug":"yumi/about-one-person"} /-->
 <!-- wp:pattern {"slug":"yumi/principles"} /-->
+<!-- wp:pattern {"slug":"yumi/talks"} /-->
 <!-- wp:pattern {"slug":"yumi/call-to-action"} /-->

@@ -23,11 +23,11 @@
 <!-- wp:social-links {"iconColor":"text-primary","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|7"},"margin":{"top":"var:preset|spacing|7"}}},"className":"is-style-logos-only size-s","layout":{"type":"flex","justifyContent":"left"}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only size-s" style="margin-top:var(--wp--preset--spacing--7)"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
-<!-- wp:social-link {"url":"https://www.instagram.com/elmastudio/?hl=en","service":"instagram"} /-->
+<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /-->
 
-<!-- wp:social-link {"url":"https://twitter.com/ellenbauer","service":"twitter"} /-->
+<!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
 
-<!-- wp:social-link {"url":"https://www.youtube.com/@elmastudio","service":"youtube"} /--></ul>
+<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
